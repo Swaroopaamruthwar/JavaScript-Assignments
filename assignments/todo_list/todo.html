@@ -1,12 +1,24 @@
 <html>
     <head>
         <title>Todo List</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            body{
+                display:flex;
+                justify-content:center;
+                margin:200px auto; 
+            }
+        </style>
     </head>
     <body>
         <div>
             <input type='text' name='todo_input'>
             <button type='submit'>Add Todo</button>
-            <div class='todos'></div>
+            <div class='todos'>
+            </div>
         </div>
     </body>
     <script src='./script.js'></script>
